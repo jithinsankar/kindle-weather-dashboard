@@ -7,3 +7,4 @@
 # core.autocrlf happens to be set to locally.
 *.sh    text eol=lf
 *.md    text eol=lf
+.gitignore  text eol=lf

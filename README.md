@@ -9,6 +9,10 @@ with nothing but a POSIX shell.
 > project. This repository is the part that is genuinely independent: HTTP in,
 > one line of text out.
 
+Used by [kindle-screensaver](https://github.com/jithinsankar/kindle-screensaver),
+which vendors a copy at `device/lib/weather.sh` so the device can still be updated
+from a single archive.
+
 Downloads current conditions and today's high/low from a keyless HTTP API and
 caches them as **one line of pipe-separated text**. That single line is the whole
 point: an e-reader has no `jq`, no Python and no JSON library, and one line is
