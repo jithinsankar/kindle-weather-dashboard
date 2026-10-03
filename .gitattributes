@@ -1,0 +1,9 @@
+# Line endings are load-bearing here.
+#
+# These files get downloaded straight to a device and run with /bin/sh. A CRLF
+# ending makes the kernel look for an interpreter literally named "/bin/sh\r",
+# and then every script fails with a confusing "not found" while looking
+# perfectly fine in an editor. Pin LF for the repo and on checkout, whatever
+# core.autocrlf happens to be set to locally.
+*.sh    text eol=lf
+*.md    text eol=lf

@@ -1,0 +1,8 @@
+# Editor / OS noise
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
+
+# Scratch
+*.tmp
